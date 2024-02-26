@@ -152,11 +152,10 @@ class BoardingPass:
     def display_boarding_info(self):
         """Display boarding pass information."""
         pass
-
+  #pass statement because the code is required however no action should be performed if not needed
     def update_gate(self, new_gate):
         """Update the gate number."""
         pass
-
     # Getter and setter methods for fullname
     def get_fullname(self):
         return self._fullname
