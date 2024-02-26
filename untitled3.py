@@ -147,6 +147,15 @@ class BoardingPass:
         self._terminalnumber = terminalnumber
         self._fromcountry = fromcountry
         self._tocountry = tocountry
+        
+ # Other required function headers
+    def display_boarding_info(self):
+        """Display boarding pass information."""
+        pass
+
+    def update_gate(self, new_gate):
+        """Update the gate number."""
+        pass
 
     # Getter and setter methods for fullname
     def get_fullname(self):
@@ -214,3 +223,4 @@ print("Gate Number:", boarding_pass.get_gatenumber())
 print("Terminal Number:", boarding_pass.get_terminalnumber())
 print("From Country:", boarding_pass.get_fromcountry())
 print("To Country:", boarding_pass.get_tocountry())
+
